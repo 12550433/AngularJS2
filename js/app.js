@@ -15,47 +15,64 @@
     	price: 2.95,
     	description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
     	canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-    	soldOut: false},
+    	soldOut: false
+        img: "../public/img/ametyst.jpg"},
+
     	{name: "Pearl",
-    	price: 3.95,
+    	price: 3.95, 
     	description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
     	canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-    	soldOut: false},
+    	soldOut: false
+        img: "../public/img/pearl.jpg"},
+
     	{name: "Zaphire",
     	price: 4.95,
     	description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
     	canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-    	soldOut: false}, 
+    	soldOut: false
+        img: "../public/img/zaphire.jpg"}, 
+
         {name: "Quartz",
         price: 4.95,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
         canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-        soldOut: false},
+        soldOut: false
+        img: "../public/img/"},
+
         {name: "Agata",
         price: 4.95,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
         canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-        soldOut: false},
+        soldOut: false
+        img: "../public/img/"},
+
         {name: "Pink Diamond",
         price: 4.95,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
         canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-        soldOut: true},
+        soldOut: true
+        img: "../public/img/"},
+
         {name: "White Diamond",
         price: 4.95,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
         canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-        soldOut: false},
+        soldOut: false
+        img: "../public/img/"},
+
         {name: "Blue Diamond",
         price: 4.95,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
         canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-        soldOut: false},
+        soldOut: false
+        img: "../public/img/"},
+
         {name: "Ruby",
         price: 4.95,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi, dolorum veniam ullam, explicabo deserunt, dolor soluta maxime est aliquam dignissimos, optio! Blanditiis, impedit, aliquid repudiandae vero doloremque voluptates pariatur.",
         canPurchase: false, //la forma de la que escriben es la forma en la que programa.  
-        soldOut: false}
+        soldOut: false
+        img: "../public/img/"}
     ];
 
     app.controller('StoreController', function(){
