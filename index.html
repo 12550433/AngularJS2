@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Victor Andres Armendariz Sotelo | 12550433 -->
 <head>
     <meta charset="UTF-8">
     <title>Index Angular</title>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-sm-6">
 	                    <h1>{{product.name}}</h1>
-	                    <h2>{{product.price}}</h2>
+	                    <h2>{{product.price | currency }}</h2>
 	                    <p>{{product.description}}</p>                	
 	                    <button class="btn btn-primary" ng-show="!products.canPurchase">Add to Cart</button>
                     </div>
@@ -53,12 +53,3 @@
 </body>
 
 </html>
-
-
-<!-- subir a un repo este trabajo -->
-<!-- el precio que se muestre como un valor -->
-<!-- buscar FILTERS tipo moneda -->
-<!-- que se vea Boneto -->
-<!-- CSS o Bootstrap -->
-<!-- agregar 6 + por pregunton -->
-<!-- quiere mas o le guiso un huevo -->
